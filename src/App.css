@@ -1,0 +1,23 @@
+/* body {
+    background-color: black;
+  } */
+
+.App {
+  max-width: 5xl;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards_place {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 29px;
+  width: 100%;
+}
+
+.cardhover :hover {
+  background-color: rgb(119, 204, 232);
+}
